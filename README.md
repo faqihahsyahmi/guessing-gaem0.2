@@ -45,6 +45,9 @@ Guess the secret number chosen by the program before you run out of lives.
 * User can only input same number once  
 * Extra difficulty levels with larger ranges  
 
+### Flow Chart of the program
+![guessingGameFC](https://github.com/faqihahsyahmi/guessing-game0.2/blob/main/image/guessingGame.png)
+
 
 ## Versioning
 * 1.0: Initial release
