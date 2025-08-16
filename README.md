@@ -6,6 +6,8 @@ A simple text-based Python Digit Darts - Guessing Number game.
 
 This program is created as a beginner-friendly learning exercise focused on Python fundamentals like loops, conditionals, and input handling.
 
+Side Note: A refined version of - https://github.com/faqihahsyahmi/guessing-game
+
 Let's get started!
 
 ### 🎯 Game Objective
@@ -13,7 +15,7 @@ Let's get started!
 Guess the secret number chosen by the program before you run out of lives.
 
 ## How it works
-* The program randomly selects a secret number using `random.randint()`.
+* The program randomly selects a secret number using `random.randint()` between 1 and 100 (inclusive).
 * The player chooses a difficulty level:
    - **Easy Mode** → 10 lives
    - **Hard Mode** → 5 lives
@@ -39,9 +41,11 @@ Guess the secret number chosen by the program before you run out of lives.
 * Limited attempts based on difficulty level  
 
 ## Weakness/To improve:
-* Input validation for non-numeric entries  
+* Input validation for non-numeric entries
+* User can only input same number once  
 * Extra difficulty levels with larger ranges  
 
 
 ## Versioning
 * 1.0: Initial release
+* 1.1: Opening message

@@ -32,10 +32,10 @@ def play_game():
     #player_input = int(input("Make a guess: "))
     lives = set_level()
 
-    print(chosen_number)
+    print("Guess a number in a range  [1, 100].")
     player_input = 0
     while player_input != chosen_number:
-        print(f"You have {lives} left!")
+        print(f"You have {lives} attempt left!")
         player_input = int(input("Make a guess: "))
         #track lives. Deduct if answer wrong
         lives = check_guess(player_input, chosen_number, lives)
@@ -43,7 +43,7 @@ def play_game():
             print("You ran out of lives!")
             return
         elif player_input != chosen_number:
-            print("Guess again.")            
+            print("Guess again...")            
 
 while input("Play Guessing Game? 'y' or 'n': ").lower() == "y":
     print("\n"*20)
